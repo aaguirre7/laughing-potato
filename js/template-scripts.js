@@ -2,7 +2,7 @@
  * coodiv team
  -------------------------------------------------------------------*/
 	// display on hover box //
-	$(".display-on-hover-box-container a.display-on-hover-box-items").on("mouseenter",function() {
+	$(".display-on-hover-box-container a.display-on-hover-box-items").mouseenter(function() {
 		$(".tab-content-hover").hide();
 		$(".display-on-hover-box-container a.display-on-hover-box-items").removeClass('ctive-clod-sr');					
 		$(this).addClass("ctive-clod-sr");					
@@ -10,19 +10,14 @@
 		$(selected_tab).stop().fadeIn();
 		return false;
 	});
-	$(".display-on-hover-box-items").on({
-    mouseenter: function () {
+	
+	$(".display-on-hover-box-items").hover(function(){
     $(this).addClass("active");
     $('.display-on-hover-box-items').addClass("itsnot");
-    },
-
-    mouseleave: function () {
+    },function(){
     $('.display-on-hover-box-items').removeClass("itsnot");
     $(this).removeClass("active");
-    }
     });
-
-
 	
 	// header resize//
 	(function () {
@@ -235,8 +230,6 @@
 	
 	// video model //	
 	$(document).ready(function() {
-	var ifcontactformexist = document.getElementById("videomodal");
-    if(ifcontactformexist){
 	var $videoSrc;  
 	$('.video-btn').on('click', function() {
     $videoSrc = $(this).data( "src" );
@@ -248,7 +241,6 @@
   	$('#videomodal').on('hide.bs.modal', function (e) {
     $("#video").attr('src',$videoSrc); 
 	}) 
-	}
 	});
 	
 	// slider plans //	

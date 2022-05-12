@@ -120,7 +120,7 @@
 
             <div class="row justify-content-between final-footer-area mr-tp-40">
                 <div class="final-footer-area-text col-md-6">
-                {lang key="copyrightFooterNotice" year=$date_year company=$companyname}
+                Copyright &copy; {$date_year} {$companyname}. All Rights Reserved.
                 </div>
 
                 <div class="footer-lang-changer col-md-2 text-right col-md-offset-4">
@@ -173,6 +173,7 @@
     </div>
 </div>
 {include file="$template/includes/generate-password.tpl"}
+
 {$footeroutput}
 
     <!-- template JavaScript -->
@@ -189,12 +190,7 @@
     <script src="{$WEB_ROOT}/templates/{$template}/js/bootstrap.offcanvas.min.js"></script>
     <!-- touchSwipe JavaScript -->
     <script src="{$WEB_ROOT}/templates/{$template}/js/jquery.touchSwipe.min.js"></script>
-    <!-- seconde style additionel JavaScript -->
-	<script src="{$WEB_ROOT}/templates/{$template}/js/particles-code.js"></script>
-	<script src="{$WEB_ROOT}/templates/{$template}/js/particles.js"></script>
-	<script src="{$WEB_ROOT}/templates/{$template}/js/smoothscroll.js"></script>
 	
 	
 </body>
 </html>
-

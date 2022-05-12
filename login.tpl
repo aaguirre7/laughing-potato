@@ -1,7 +1,5 @@
 <div class="custom-login-page">
-<div class="login-left-side-custom">
-<div id="particles-bg"></div>
-<img class="custom-login-bg" src="{$WEB_ROOT}/templates/{$template}/img/header/h_bg_02.svg" alt="img-bg">
+<div class="login-left-side-custom standard-version">
 <div>
 <a class="navbar-brand" href="{$WEB_ROOT}/index.php"><img class="w-logo" src="{$WEB_ROOT}/templates/{$template}/img/header/logo-w.png" alt="{$companyname}" /></a>
 <span class="login-email-header">support@coodiv.net</span>

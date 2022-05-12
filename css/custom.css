@@ -6,7 +6,6 @@
 	
 ***************************************************** */
 
-
 html, body {
     height: auto;
 }
@@ -1501,38 +1500,8 @@ body.fullpage > p {
 .dataTables_wrapper{
     overflow: scroll;
 }}
-.futures-version-2-box p {
-    min-height: 156px;
-}
-.top-header-right-nav li {
-    color: #ffffff;
-}
-#monthly-yearly-chenge.style-two {
-    width: 320px;
-    overflow: hidden !important;
-}
-#monthly-yearly-chenge.style-two a {
-    width: 154px;
-    font-size: 11px;
-}
-#monthly-yearly-chenge.style-two a:first-child .change-box {
-    width: 154px;
-}
-.d-none{
-	display: none !important;
-}
-.padding-100-0.position-relative.white-bg {
-    overflow: hidden;
-}
-@media (max-width: 570px){
-.whmcs-top-header-coodiv-link span {
-    color: #ffffff !important;
-}
-.whmcs-top-header-coodiv-link i {
-    color: #fff;
-}
-}
 @media (max-width: 767px) {
 .offcanvas-stop-scrolling {
     overflow: auto;
 }}
+

@@ -1,4 +1,3 @@
-
 {if $twitterusername}
 
     <h2 class="homepagetitle">{$LANG.twitterlatesttweets}</h2>
