@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=members.geekohost.com/templates/bredh-standard-git
+    - export DEPLOYPATH=/home1/geekondg/members.geekohost.com/templates/bredh-standard-git
+
     - /bin/cp -R images $DEPLOYPATH
