@@ -2,7 +2,7 @@
 <div class="login-left-side-custom standard-version">
 <div>
 <a class="navbar-brand" href="{$WEB_ROOT}/index.php"><img class="w-logo" src="{$WEB_ROOT}/templates/{$template}/img/header/logo-w.png" alt="{$companyname}" /></a>
-<span class="login-email-header">support@coodiv.net</span>
+<span class="login-email-header">support@geekohost.com</span>
 </div>
 <div class="kt-grid">
 	<div class="item-middle">

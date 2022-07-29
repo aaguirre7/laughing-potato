@@ -39,7 +39,7 @@
 		<div class="whmcs-top-header-coodiv">
 		<div class="container">
 		<ul class="top-header-right-nav">
-		<li><i class="bredhicon-chat-inv"></i> support@coodiv.net</li>
+		<li><i class="bredhicon-chat-inv"></i> support@geekohost.com</li>
 		</ul>
 		
 		<ul class="top-nav">
@@ -274,9 +274,9 @@
                     <div class="row hosting-header-slider-cell">
                         <div class="col-md-6">
                             <h3 class="mt-3 main-header-text-title">
-	                        <i class="circle-sub-title-header-slider">the best web hosting provider</i>
-	                        Perfect Plans For Getting <br>Started
-	                        <small>order yours now</small>
+	                        <i class="circle-sub-title-header-slider">Dedicated to entrepreneurs</i>
+	                        Your kickstarter <br>Hosting
+	                        <small>Get on board!</small>
 	                        </h3>
                             <p class="text-sub-title-header-slider">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             <a class="btn-sub-title-header-slider" href="#">start now</a>
