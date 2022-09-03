@@ -15,8 +15,8 @@
         <div class="container">
             <div class="row free-trial-footer-banner">
                 <div class="col-md-8">
-                    <h5 class="free-trial-footer-banner-title">join now and have free month of deluxe hosting</h5>
-                    <p class="free-trial-footer-banner-text">We offers a free month of service for new customers.* Sign up for your trial offer and instantly have deluxe hosting in your account with free domain included.</p>
+                    <h5 class="free-trial-footer-banner-title">What are you waiting for?</h5>
+                    <p class="free-trial-footer-banner-text">The kick starter hosting for your business!</p>
                 </div>
 
                 <div class="col-md-4 free-trial-footer-links d-flex mx-auto flex-column">
@@ -52,6 +52,8 @@
                             <li><a href="#">Transfer New Domain</a></li>
                             <li><a href="#">Software Products</a></li>
                             <li><a href="#">Dedicated Hosting</a></li>
+                            <li><a href="#">SSL Certificates</a></li>
+                            <li><a href="#">Website Builder</a></li>
                         </ul>
 
                         <ul class="col-md-6 quiq-links-footer-ul">
@@ -64,6 +66,9 @@
                             <li><a href="#">Review & Checkout</a></li>
                             <li><a href="#">client area</a></li>
                             <li><a href="#">manage your account</a></li>
+                            <li><a href="#">Website backup</a></li>
+                            <li><a href="#">Website Security</a></li>
+                            <li><a href="#">SEO Tools</a></li>
                         </ul>
 
                     </div>
@@ -79,15 +84,10 @@
                     <div class="footer-contact-method">
                         <a href="#">
                             <span>email us :</span>
-                            <b>support@coodiv.net</b>
+                            <b>support@geekohost.com</b>
                             <i class="fas fa-at"></i>
                         </a>
-
-                        <a href="#">
-                            <span>call us :</span>
-                            <b>00123 45 67 89 91</b>
-                            <i class="fas fa-phone"></i>
-                        </a>
+ 
                     </div>
                 </div>
             </div>
@@ -96,12 +96,7 @@
                 <div class="col-md-4">
                     <a href="#"><img class="footer-logo-blue" src="{$WEB_ROOT}/templates/{$template}/img/header/logo-w-f.png" alt="" /></a>
                     <div class="footer-social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-dribbble"></i></a>
-                        <a href="#"><i class="fab fa-google"></i></a>
                     </div>
                 </div>
 

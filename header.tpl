@@ -205,100 +205,98 @@
 		
 		<div class="header-height-clone mb-auto"></div>
 		{if $templatefile == 'homepage'}
-        <main class="container mb-auto mt-auto">
-            <div class="carousel carousel-main">
-                <div class="carousel-cell">
-                    <h3 class="mt-3 main-header-text-title"><span>Get the most popular extensions</span>Find your ideal domain name<small>.xyz .com .net .biz .info .blog .cl .org</small></h3>
-                    <div style="margin: 0;" class="row">
-		
-					<form method="post" action="domainchecker.php" id="domain-search-header" class="col-md-6">
-                        <i class="fas fa-globe"></i>
-                        <input type="text" placeholder="{$LANG.findyourdomain}" name="domain" placeholder="{$LANG.exampledomain}" autocapitalize="none" data-toggle="tooltip" data-placement="left" data-trigger="manual" title="{lang key='orderForm.required'}">
-                        <span class="inline-button-domain-order">
-						{if $transferdomainenabled}
-                  	    <button data-toggle="tooltip" data-placement="left" title="{$LANG.domainstransfer}" id="transfer-btn" type="submit" name="transfer" value="{$LANG.domainstransfer}"><i class="fas fa-undo"></i></button>
-                  	    {/if}
-						{if $registerdomainenabled}
-					    <button data-toggle="tooltip" data-placement="left" title="{$LANG.search}" id="search-btn" type="submit" value="{$LANG.search}"><i class="fas fa-search"></i></button>
-                  	    {/if}
-					  </span>
-                    </form>
-					</div>
-                    <span class="col-md-6 domain-search-header-pricetext">{$LANG.startingat} <b>$0.99/{$LANG.orderForm.year}</b></span>
+            <main class="container mb-auto mt-auto main-header-sub-pages-informations">
+                {include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=true}
+            </main> 
+		{else} 
+            <main class="container mb-auto mt-auto">
+                <div class="carousel carousel-main">
+                    <div class="carousel-cell">
+                        <h3 class="mt-3 main-header-text-title"><span>Get the most popular extensions</span>Find your ideal domain name<small>.xyz .com .net .biz .info .blog .cl .org</small></h3>
+                        <div style="margin: 0;" class="row">
+            
+                        <form method="post" action="domainchecker.php" id="domain-search-header" class="col-md-6">
+                            <i class="fas fa-globe"></i>
+                            <input type="text" placeholder="{$LANG.findyourdomain}" name="domain" placeholder="{$LANG.exampledomain}" autocapitalize="none" data-toggle="tooltip" data-placement="left" data-trigger="manual" title="{lang key='orderForm.required'}">
+                            <span class="inline-button-domain-order">
+                            {if $transferdomainenabled}
+                            <button data-toggle="tooltip" data-placement="left" title="{$LANG.domainstransfer}" id="transfer-btn" type="submit" name="transfer" value="{$LANG.domainstransfer}"><i class="fas fa-undo"></i></button>
+                            {/if}
+                            {if $registerdomainenabled}
+                            <button data-toggle="tooltip" data-placement="left" title="{$LANG.search}" id="search-btn" type="submit" value="{$LANG.search}"><i class="fas fa-search"></i></button>
+                            {/if}
+                        </span>
+                        </form>
+                        </div>
+                        <span class="col-md-6 domain-search-header-pricetext">{$LANG.startingat} <b>$0.99/{$LANG.orderForm.year}</b></span>
 
-                    <div class="owl-theme owl-domain-prices-previw col-sm-12 col-md-8 special-for-whmcs">
-					
-                        {if $registerdomainenabled || $transferdomainenabled}
-                            <div class="item header-btn-services-whmcs">
-                                <a id="btnBuyADomain" href="domainchecker.php">
-                                    <i class="fas fa-globe"></i>
+                        <div class="owl-theme owl-domain-prices-previw col-sm-12 col-md-8 special-for-whmcs">
+                        
+                            {if $registerdomainenabled || $transferdomainenabled}
+                                <div class="item header-btn-services-whmcs">
+                                    <a id="btnBuyADomain" href="domainchecker.php">
+                                        <i class="fas fa-globe"></i>
+                                        <p>
+                                            {$LANG.buyadomain}
+                                        </p>
+                                        <img src="{$WEB_ROOT}/templates/{$template}/img/svgs/Arrow.svg" alt=""/>
+                                    </a>
+                                </div>
+                            {/if}
+                            <div class="item header-btn-services-whmcs color-2">
+                                <a id="btnOrderHosting" href="cart.php">
+                                    <i class="far fa-hdd"></i>
                                     <p>
-                                        {$LANG.buyadomain}
+                                        {$LANG.orderhosting}
                                     </p>
-									<img src="{$WEB_ROOT}/templates/{$template}/img/svgs/Arrow.svg" alt=""/>
+                                    <img src="{$WEB_ROOT}/templates/{$template}/img/svgs/Arrow.svg" alt=""/>
                                 </a>
                             </div>
-                        {/if}
-                        <div class="item header-btn-services-whmcs color-2">
-                            <a id="btnOrderHosting" href="cart.php">
-                                <i class="far fa-hdd"></i>
-                                <p>
-                                    {$LANG.orderhosting}
-                                </p>
-								<img src="{$WEB_ROOT}/templates/{$template}/img/svgs/Arrow.svg" alt=""/>
-                            </a>
+                            <div class="item header-btn-services-whmcs color-3">
+                                <a id="btnMakePayment" href="clientarea.php">
+                                    <i class="fas fa-credit-card"></i>
+                                    <p>
+                                        {$LANG.makepayment}
+                                    </p>
+                                    <img src="{$WEB_ROOT}/templates/{$template}/img/svgs/Arrow.svg" alt=""/>
+                                </a>
+                            </div>
+                            <div class="item header-btn-services-whmcs color-4">
+                                <a id="btnGetSupport" href="submitticket.php">
+                                    <i class="far fa-envelope"></i>
+                                    <p>
+                                        {$LANG.getsupport}
+                                    </p>
+                                    <img src="{$WEB_ROOT}/templates/{$template}/img/svgs/Arrow.svg" alt=""/>
+                                </a>
+                            </div>
                         </div>
-                        <div class="item header-btn-services-whmcs color-3">
-                            <a id="btnMakePayment" href="clientarea.php">
-                                <i class="fas fa-credit-card"></i>
-                                <p>
-                                    {$LANG.makepayment}
-                                </p>
-								<img src="{$WEB_ROOT}/templates/{$template}/img/svgs/Arrow.svg" alt=""/>
-                            </a>
-                        </div>
-                        <div class="item header-btn-services-whmcs color-4">
-                            <a id="btnGetSupport" href="submitticket.php">
-                                <i class="far fa-envelope"></i>
-                                <p>
-                                    {$LANG.getsupport}
-                                </p>
-								<img src="{$WEB_ROOT}/templates/{$template}/img/svgs/Arrow.svg" alt=""/>
-                            </a>
-                        </div>
+
                     </div>
 
-                </div>
-
-                <div class="carousel-cell">
-                    <div class="row hosting-header-slider-cell">
-                        <div class="col-md-6">
-                            <h3 class="mt-3 main-header-text-title">
-	                        <i class="circle-sub-title-header-slider">Dedicated to entrepreneurs</i>
-	                        Your kickstarter <br>Hosting
-	                        <small>Get on board!</small>
-	                        </h3>
-                            <p class="text-sub-title-header-slider">Enjoy a full web hosting service, Get your business online today. 99% uptime for rock-solid performance</p>
-                            <a class="btn-sub-title-header-slider" href="#">start now</a>
-                        </div>
-                        <div class="col-md-6 text-center">
-                            <img class="hosting-header-slider-cell-img" src="{$WEB_ROOT}/templates/{$template}/img/header/slider/header-bg.png" alt="" />
+                    <div class="carousel-cell">
+                        <div class="row hosting-header-slider-cell">
+                            <div class="col-md-6">
+                                <h3 class="mt-3 main-header-text-title">
+                                <i class="circle-sub-title-header-slider">Dedicated to entrepreneurs</i>
+                                Your kickstarter <br>Hosting
+                                <small>Get on board!</small>
+                                </h3>
+                                <p class="text-sub-title-header-slider">Enjoy a full web hosting service, Get your business online today. 99% uptime for rock-solid performance</p>
+                                <a class="btn-sub-title-header-slider" href="#">start now</a>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <img class="hosting-header-slider-cell-img" src="{$WEB_ROOT}/templates/{$template}/img/header/slider/header-bg.png" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <nav class="nav-header-chage nav--shamso carousel-nav">
-                <button class="nav__item nav__item--current carousel-cell" aria-label="Item 1"><span class="nav__item-title">{$LANG.buyadomain}</span></button>
-                <button class="nav__item carousel-cell" aria-label="Item 2"><span class="nav__item-title">{$LANG.orderhosting}</span></button>
-            </nav>
-
-        </main>
-		{else}
-		<main class="container mb-auto mt-auto main-header-sub-pages-informations">
-		{include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=true}
-        </main>
-
+                <nav class="nav-header-chage nav--shamso carousel-nav">
+                    <button class="nav__item carousel-cell" aria-label="Item 2"><span class="nav__item-title">{$LANG.orderhosting}</span></button>
+                    <button class="nav__item nav__item--current carousel-cell" aria-label="Item 1"><span class="nav__item-title">{$LANG.buyadomain}</span></button>
+                </nav> 
+            </main>
 		{/if}
         <div class="mt-auto"></div>
     </div><!-- end header -->
