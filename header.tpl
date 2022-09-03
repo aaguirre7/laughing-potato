@@ -151,7 +151,7 @@
 					{else}
 					{$LANG.login}
 					{/if}
-					</a> <span>12365-8448</span>
+					</a>
                         <!-- user header dropdown -->
                         <div class="dropdown-menu coodiv-dropdown-header user-login-dropdown {if $loggedin}loggged-user-informations{/if}" aria-labelledby="header-login-dropdown">
 						{if $loggedin}
