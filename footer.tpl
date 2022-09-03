@@ -76,7 +76,7 @@
                 <div class="col-md-3">
                     <h5 class="quiq-links-footer-title">secure and contact</h5>
                     <p class="secure-img-footer-area">
-                        <img src="{$WEB_ROOT}/templates/{$template}/img/footer/secure.png" alt="" />
+                        <img src="{$WEB_ROOT}/templates/{$template}/img/footer/sitelock.png" alt="" />
                         <span>this is for demo reason only</span>
                     </p>
 
@@ -93,7 +93,7 @@
 
             <div class="mr-tp-40 row justify-content-between footer-area-under">
                 <div class="col-md-4">
-                    <a href="#"><img class="footer-logo-blue" src="{$WEB_ROOT}/templates/{$template}/img/header/logo-w-f.png" alt="" /></a>
+                    <a href="#"><img class="footer-logo-blue" src="{$WEB_ROOT}/templates/{$template}/img/header/logof-white.png" alt="" /></a>
                     <div class="footer-social-icons">
                         <a href="#"><i class="fab fa-twitter"></i></a>
                     </div>
