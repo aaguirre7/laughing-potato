@@ -26,8 +26,7 @@
 					<a class="sign-btn" href="{$WEB_ROOT}/index.php">homepage</a>
 					<a class="log-btn" href="{$WEB_ROOT}/cart.php?a=view">{$LANG.viewcart}</a>
 					{else}
-                        <a class="sign-btn" href="register.php">sign up</a>
-                        <a class="log-btn" href="login.php">log in</a>
+                        <a class="sign-btn" href="https://members.geekohost.com/cart.php?gid=4">GO</a> 
 					{/if}
                     </div>
                     <div class="mt-auto"></div>
