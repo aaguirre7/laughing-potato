@@ -208,7 +208,7 @@
         <main class="container mb-auto mt-auto">
             <div class="carousel carousel-main">
                 <div class="carousel-cell">
-                    <h3 class="mt-3 main-header-text-title"><span>{$LANG.homebegin}</span>{$LANG.registerdomain}<small>order you own now</small></h3>
+                    <h3 class="mt-3 main-header-text-title"><span>Get the most popular extensions</span>Find your ideal domain name<small>.xyz .com .net .biz .info .blog .cl .org</small></h3>
                     <div style="margin: 0;" class="row">
 		
 					<form method="post" action="domainchecker.php" id="domain-search-header" class="col-md-6">
@@ -278,7 +278,7 @@
 	                        Your kickstarter <br>Hosting
 	                        <small>Get on board!</small>
 	                        </h3>
-                            <p class="text-sub-title-header-slider">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <p class="text-sub-title-header-slider">Enjoy a full web hosting service, Get your business online today. 99% uptime for rock-solid performance</p>
                             <a class="btn-sub-title-header-slider" href="#">start now</a>
                         </div>
                         <div class="col-md-6 text-center">
