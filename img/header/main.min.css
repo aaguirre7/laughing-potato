@@ -1561,3 +1561,7 @@ section#main-body #order-standard_cart .empty-cart .btn{background-color:#F44336
     bottom: -115px;
     top: 0;
 }
+.size-img{
+    width: 250px;
+    height: auto;
+}
