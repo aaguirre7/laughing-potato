@@ -41,33 +41,18 @@
                 <div class="col-md-9 quiq-links-footer">
                     <h5 class="quiq-links-footer-title">Quick Links</h5>
                     <div class="row">
-                        <ul class="col-md-6 quiq-links-footer-ul">
-                            <li><a href="#">our company announcements</a></li>
-                            <li><a href="#">Knowledgebase</a></li>
-                            <li><a href="#">Downloads</a></li>
-                            <li><a href="#">Network Status</a></li>
-                            <li><a href="#">My Support Tickets</a></li>
-                            <li><a href="#">Register a New Domain</a></li>
-                            <li><a href="#">Transfer New Domain</a></li>
-                            <li><a href="#">Software Products</a></li>
-                            <li><a href="#">Dedicated Hosting</a></li>
-                            <li><a href="#">SSL Certificates</a></li>
-                            <li><a href="#">Website Builder</a></li>
+                        <ul class="col-md-6 quiq-links-footer-ul"> 
+                            <li><a href="https://members.geekohost.com/cart.php">Store</a></li>
+                            <li><a href="https://members.geekohost.com/clientarea.php">Manage your account</a></li>
+                            <li><a href="https://members.geekohost.com/submitticket.php?step=2&deptid=1">Contact Us</a></li>
+                            <li><a href="https://members.geekohost.com/index.php/store/ssl-certificates">SSL Certificates</a></li> 
                         </ul>
 
-                        <ul class="col-md-6 quiq-links-footer-ul">
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Network Status</a></li>
-                            <li><a href="#">Forgot Password?</a></li>
-                            <li><a href="#">Create an account with us</a></li>
-                            <li><a href="#">Login to your account</a></li>
-                            <li><a href="#">make a new payment</a></li>
-                            <li><a href="#">Review & Checkout</a></li>
-                            <li><a href="#">client area</a></li>
-                            <li><a href="#">manage your account</a></li>
-                            <li><a href="#">Website backup</a></li>
-                            <li><a href="#">Website Security</a></li>
-                            <li><a href="#">SEO Tools</a></li>
+                        <ul class="col-md-6 quiq-links-footer-ul">  
+                            <li><a href="https://members.geekohost.com/index.php/store/website-builder">Website Builder</a></li>
+                            <li><a href="https://members.geekohost.com/index.php/store/codeguard">Website backup</a></li>
+                            <li><a href="https://members.geekohost.com/index.php/store/sitelock">Website Security</a></li>
+                            <li><a href="https://members.geekohost.com/index.php/store/marketgoo">SEO Tools</a></li>
                         </ul>
 
                     </div>
