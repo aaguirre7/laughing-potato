@@ -1505,3 +1505,7 @@ body.fullpage > p {
     overflow: auto;
 }}
 
+.size-img{
+    width: 250px;
+    height: auto;
+}

@@ -216,7 +216,7 @@
                                 Your kickstarter <br>Hosting
                                 <small>Get on board!</small>
                                 </h3>
-                                <p class="text-sub-title-header-slider">Enjoy a full web hosting service, Get your business online today. 99% uptime for rock-solid performance</p>
+                                <p class="text-sub-title-header-slider">Enjoy a full web hosting service, Get your business online today. <br> 99% uptime for rock-solid performance</p>
                                 <a class="btn-sub-title-header-slider" href="#">start now</a>
                             </div>
                             <div class="col-md-6 text-center">
