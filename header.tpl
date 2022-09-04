@@ -106,13 +106,7 @@
                             <a class="nav-link" role="button" id="webhosting-megamenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Hosting <span class="nav-new-tag">New</span></a>
                             <div class="dropdown-menu coodiv-dropdown-header web-menu" aria-labelledby="webhosting-megamenu">
                             <ul class="web-hosting-menu-header">
-							<li><i class="fas fa-server"></i> <a href="web-hosting.php">shared hosting <span>Lorem ipsum dolor sit amet</span></a></li>
-							<li><i class="fab fa-squarespace"></i> <a href="dedicated.php">dedicated hosting <span>Lorem ipsum dolor sit amet</span></a></li>
-							<li><i class="fas fa-gamepad"></i> <a href="games.php">games servers <span>Lorem ipsum dolor sit amet</span></a></li>
-							<li><i class="fas fa-cloud"></i> <a href="servers.php">cloud servers <span>Lorem ipsum dolor sit amet</span></a></li>
-							<li><i class="fab fa-cpanel"></i> <a href="cpanel.php">cPanel Resellers <span>Lorem ipsum dolor sit amet</span></a></li>
-							<li><i class="fab fa-teamspeak"></i> <a href="voice.php">voice servers <span>Lorem ipsum dolor sit amet</span></a></li>
-							<li><i class="fab fa-wordpress-simple"></i> <a href="wordpress.php">WordPress hosting <span>Lorem ipsum dolor sit amet</span></a></li>
+							<li><i class="fas fa-server"></i> <a href="https://members.geekohost.com/cart.php">shared hosting <span>Power up your growth</span></a></li> 
 							</ul>
                             </div>
                     </li>
@@ -209,23 +203,6 @@
                 <div class="carousel carousel-main">
 
                     <div class="carousel-cell">
-                        <div class="row hosting-header-slider-cell">
-                            <div class="col-md-6">
-                                <h3 class="mt-3 main-header-text-title">
-                                <i class="circle-sub-title-header-slider">Dedicated to entrepreneurs</i>
-                                Your kickstarter <br>Hosting
-                                <small>Get on board!</small>
-                                </h3>
-                                <p class="text-sub-title-header-slider">Enjoy a full web hosting service, Get your business online today. <br> 99% uptime for rock-solid performance</p>
-                                <a class="btn-sub-title-header-slider" href="#">start now</a>
-                            </div>
-                            <div class="col-md-6 text-center">
-                                <img class="hosting-header-slider-cell-img" src="{$WEB_ROOT}/templates/{$template}/img/header/slider/header-bg.png" alt="" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-cell">
                         <h3 class="mt-3 main-header-text-title"><span>Get the most popular extensions</span>Find your ideal domain name<small>.xyz .com .net .biz .info .blog .cl .org</small></h3>
                         <div style="margin: 0;" class="row"> 
                             <form method="post" action="domainchecker.php" id="domain-search-header" class="col-md-6">
@@ -241,7 +218,7 @@
                                 </span>
                             </form>
                         </div>
-                        <span class="col-md-6 domain-search-header-pricetext">{$LANG.startingat} <b>$0.99/{$LANG.orderForm.year}</b></span>
+                        
 
                         <div class="owl-theme owl-domain-prices-previw col-sm-12 col-md-8 special-for-whmcs"> 
                             {if $registerdomainenabled || $transferdomainenabled}
@@ -285,7 +262,23 @@
                         </div> 
                     </div>
 
-                   
+                    <div class="carousel-cell">
+                        <div class="row hosting-header-slider-cell">
+                            <div class="col-md-6">
+                                <h3 class="mt-3 main-header-text-title">
+                                <i class="circle-sub-title-header-slider">Dedicated to entrepreneurs</i>
+                                Your kickstarter <br>Hosting
+                                <small>Get on board!</small>
+                                </h3>
+                                <p class="text-sub-title-header-slider">Enjoy a full web hosting service, Get your business online today. <br> 99% uptime for rock-solid performance</p>
+                                <a class="btn-sub-title-header-slider" href="https://members.geekohost.com/cart.php?a=add&domain=register">start now</a>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <img class="hosting-header-slider-cell-img" src="{$WEB_ROOT}/templates/{$template}/img/header/slider/header-bg.png" alt="" />
+                            </div>
+                        </div>
+                    </div> 
+ 
                 </div>
 
                 <nav class="nav-header-chage nav--shamso carousel-nav"> 
