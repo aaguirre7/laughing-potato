@@ -3634,3 +3634,8 @@ form[data-role="json-form"] .has-error .tooltip.top .tooltip-arrow {
 .modal-metric-pricing .modal-footer {
     padding-bottom: 45px;
 }
+
+.size-img{
+    width: 250px;
+    height: auto;
+}

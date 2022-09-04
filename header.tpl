@@ -205,10 +205,6 @@
 		
 		<div class="header-height-clone mb-auto"></div>
 		{if $templatefile == 'homepage'}
-            <main class="container mb-auto mt-auto main-header-sub-pages-informations">
-                {include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=true}
-            </main> 
-		{else} 
             <main class="container mb-auto mt-auto">
                 <div class="carousel carousel-main">
                     <div class="carousel-cell">
@@ -292,11 +288,15 @@
                     </div>
                 </div>
 
-                <nav class="nav-header-chage nav--shamso carousel-nav">
-                    <button class="nav__item carousel-cell" aria-label="Item 2"><span class="nav__item-title">{$LANG.orderhosting}</span></button>
+                <nav class="nav-header-chage nav--shamso carousel-nav"> 
                     <button class="nav__item nav__item--current carousel-cell" aria-label="Item 1"><span class="nav__item-title">{$LANG.buyadomain}</span></button>
+                    <button class="nav__item carousel-cell" aria-label="Item 2"><span class="nav__item-title">{$LANG.orderhosting}</span></button>
                 </nav> 
-            </main>
+            </main> 
+		{else} 
+            <main class="container mb-auto mt-auto main-header-sub-pages-informations">
+                {include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=true}
+            </main> 
 		{/if}
         <div class="mt-auto"></div>
     </div><!-- end header -->

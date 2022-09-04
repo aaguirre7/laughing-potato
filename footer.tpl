@@ -76,7 +76,7 @@
                 <div class="col-md-3">
                     <h5 class="quiq-links-footer-title">secure and contact</h5>
                     <p class="secure-img-footer-area">
-                        <img src="{$WEB_ROOT}/templates/{$template}/img/footer/sitelock.png" alt="" />
+                        <img class="size-img" src="{$WEB_ROOT}/templates/{$template}/img/footer/sitelock.png" alt="" />
                         <span>this is for demo reason only</span>
                     </p>
 
