@@ -15,8 +15,8 @@
         <div class="container">
             <div class="row free-trial-footer-banner">
                 <div class="col-md-8">
-                    <h5 class="free-trial-footer-banner-title">join now and have free month of deluxe hosting</h5>
-                    <p class="free-trial-footer-banner-text">We offers a free month of service for new customers.* Sign up for your trial offer and instantly have deluxe hosting in your account with free domain included.</p>
+                    <h5 class="free-trial-footer-banner-title">What are you waiting for?</h5>
+                    <p class="free-trial-footer-banner-text">The kick starter hosting for your business!</p>
                 </div>
 
                 <div class="col-md-4 free-trial-footer-links d-flex mx-auto flex-column">
@@ -26,8 +26,7 @@
 					<a class="sign-btn" href="{$WEB_ROOT}/index.php">homepage</a>
 					<a class="log-btn" href="{$WEB_ROOT}/cart.php?a=view">{$LANG.viewcart}</a>
 					{else}
-                        <a class="sign-btn" href="register.php">sign up</a>
-                        <a class="log-btn" href="login.php">log in</a>
+                        <a class="sign-btn" href="https://members.geekohost.com/cart.php?gid=4">GO</a> 
 					{/if}
                     </div>
                     <div class="mt-auto"></div>
@@ -42,28 +41,18 @@
                 <div class="col-md-9 quiq-links-footer">
                     <h5 class="quiq-links-footer-title">Quick Links</h5>
                     <div class="row">
-                        <ul class="col-md-6 quiq-links-footer-ul">
-                            <li><a href="#">our company announcements</a></li>
-                            <li><a href="#">Knowledgebase</a></li>
-                            <li><a href="#">Downloads</a></li>
-                            <li><a href="#">Network Status</a></li>
-                            <li><a href="#">My Support Tickets</a></li>
-                            <li><a href="#">Register a New Domain</a></li>
-                            <li><a href="#">Transfer New Domain</a></li>
-                            <li><a href="#">Software Products</a></li>
-                            <li><a href="#">Dedicated Hosting</a></li>
+                        <ul class="col-md-6 quiq-links-footer-ul"> 
+                            <li><a href="https://members.geekohost.com/cart.php">Store</a></li>
+                            <li><a href="https://members.geekohost.com/clientarea.php">Manage your account</a></li>
+                            <li><a href="https://members.geekohost.com/submitticket.php?step=2&deptid=1">Contact Us</a></li>
+                            <li><a href="https://members.geekohost.com/index.php/store/ssl-certificates">SSL Certificates</a></li> 
                         </ul>
 
-                        <ul class="col-md-6 quiq-links-footer-ul">
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Network Status</a></li>
-                            <li><a href="#">Forgot Password?</a></li>
-                            <li><a href="#">Create an account with us</a></li>
-                            <li><a href="#">Login to your account</a></li>
-                            <li><a href="#">make a new payment</a></li>
-                            <li><a href="#">Review & Checkout</a></li>
-                            <li><a href="#">client area</a></li>
-                            <li><a href="#">manage your account</a></li>
+                        <ul class="col-md-6 quiq-links-footer-ul">  
+                            <li><a href="https://members.geekohost.com/index.php/store/website-builder">Website Builder</a></li>
+                            <li><a href="https://members.geekohost.com/index.php/store/codeguard">Website backup</a></li>
+                            <li><a href="https://members.geekohost.com/index.php/store/sitelock">Website Security</a></li>
+                            <li><a href="https://members.geekohost.com/index.php/store/marketgoo">SEO Tools</a></li>
                         </ul>
 
                     </div>
@@ -72,36 +61,26 @@
                 <div class="col-md-3">
                     <h5 class="quiq-links-footer-title">secure and contact</h5>
                     <p class="secure-img-footer-area">
-                        <img src="{$WEB_ROOT}/templates/{$template}/img/footer/secure.png" alt="" />
+                        <img class="size-img" src="{$WEB_ROOT}/templates/{$template}/img/footer/sitelock.png" alt="" />
                         <span>this is for demo reason only</span>
                     </p>
 
                     <div class="footer-contact-method">
                         <a href="#">
                             <span>email us :</span>
-                            <b>support@coodiv.net</b>
+                            <b>support@geekohost.com</b>
                             <i class="fas fa-at"></i>
                         </a>
-
-                        <a href="#">
-                            <span>call us :</span>
-                            <b>00123 45 67 89 91</b>
-                            <i class="fas fa-phone"></i>
-                        </a>
+ 
                     </div>
                 </div>
             </div>
 
             <div class="mr-tp-40 row justify-content-between footer-area-under">
                 <div class="col-md-4">
-                    <a href="#"><img class="footer-logo-blue" src="{$WEB_ROOT}/templates/{$template}/img/header/logo-w-f.png" alt="" /></a>
+                    <a href="#"><img class="footer-logo-blue" src="{$WEB_ROOT}/templates/{$template}/img/header/logof-white.png" alt="" /></a>
                     <div class="footer-social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-dribbble"></i></a>
-                        <a href="#"><i class="fab fa-google"></i></a>
                     </div>
                 </div>
 
