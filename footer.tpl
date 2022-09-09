@@ -62,7 +62,6 @@
                     <h5 class="quiq-links-footer-title">secure and contact</h5>
                     <p class="secure-img-footer-area">
                         <img class="size-img" src="{$WEB_ROOT}/templates/{$template}/img/footer/sitelock.png" alt="" />
-                        <span>this is for demo reason only</span>
                     </p>
 
                     <div class="footer-contact-method">
