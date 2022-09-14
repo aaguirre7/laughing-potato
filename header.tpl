@@ -282,8 +282,8 @@
                 </div>
 
                 <nav class="nav-header-chage nav--shamso carousel-nav"> 
-                    <button class="nav__item nav__item--current carousel-cell" aria-label="Item 1"><span class="nav__item-title">{$LANG.buyadomain}</span></button>
-                    <button class="nav__item carousel-cell" aria-label="Item 2"><span class="nav__item-title">{$LANG.orderhosting}</span></button>
+                    <button class="nav__item nav__item--current carousel-cell" aria-label="Item 1"></button>
+                    <button class="nav__item carousel-cell" aria-label="Item 2"></button>
                 </nav> 
             </main> 
 		{else} 

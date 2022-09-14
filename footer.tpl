@@ -13,13 +13,13 @@
 
 <section class="footer-section-banner">
         <div class="container">
-            <div class="row free-trial-footer-banner">
+            <div class="row free-trial-footer-banner" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                 <div class="col-md-8">
-                    <h5 class="free-trial-footer-banner-title">What are you waiting for?</h5>
-                    <p class="free-trial-footer-banner-text">The kick starter hosting for your business!</p>
+                    <h5 style="text-align: center;" class="free-trial-footer-banner-title">What are you waiting for?</h5>
+                    <p style="text-align: center;" class="free-trial-footer-banner-text">The kick starter hosting for your business!</p>
                 </div>
 
-                <div class="col-md-4 free-trial-footer-links d-flex mx-auto flex-column">
+                <div style="margin-top: 16px;" class="col-md-4 free-trial-footer-links d-flex mx-auto flex-column">
                     <div class="mb-auto"></div>
                     <div class="mb-auto">
 					{if $loggedin}
